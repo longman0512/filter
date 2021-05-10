@@ -1,0 +1,18 @@
+1. but now when I want to add new filter and when I click on "Add filter" again (in the same category)
+then it shows me form with my previous filter (like I would like to edit previous one)
+
+2. Radiobutton filter should have posibility to mark only 1 value as "default"
+
+to do that I have to struggle with the form, I have to trick, remove previoous values and do some tricks to achieve that)
+but I would say most of things and in general the most difficult things you have done - its jsut the matter of some minor bugfixes
+
+there are some other things
+e.g. I have a few filters and now I click to Edit one of them (radio one)
+
+and when I click, the edit form somehow shows me options from different filter (exact def - xxxx34 one)
+
+that looks like some kind of collision in the names or keys of elements,
+most probably you distinguigh things by "filter name"?
+which probably causes that everytime whan I have the same name in filters they collide
+
+this is good but probably this thing is not a good one to be 'key' anywhere
